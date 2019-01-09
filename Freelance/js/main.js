@@ -204,3 +204,20 @@ if (page.endsWith('Portafolio.html')) {
 if (page.endsWith('Services.html')) {
   items[2].classList.add('menu-active')
 }
+//contact 
+
+//firebase
+document.getElementById('contacForm').addEventListener('submit',submitForm);
+function submitForm(e){
+  e.preventDefault();
+
+  var name= getInputVal('name');
+  var email= getInputVal('email');
+  var phone= getInputVal('phone');
+  var message= getInputVal('message');
+  console.log(name);
+}
+
+function getInputVal(id){
+  return document.getElementById(id).value;
+}
