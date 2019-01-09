@@ -191,7 +191,7 @@ if (page.endsWith('About.html')) {
 if (page.endsWith('Contact.html')) {
   items[5].classList.add('menu-active')
 }
-if (page.endsWith('Equipo.html')) {
+if (page.endsWith('Porque-Elegirnos.html')) {
   items[4].classList.add('menu-active')
 }
 
@@ -201,8 +201,11 @@ if (page.endsWith('Portafolio.html')) {
 }
 
 
-if (page.endsWith('Services.html')) {
+if (page.endsWith('Nuestra-Empresa.html')) {
   items[2].classList.add('menu-active')
+}
+if (page.endsWith('Blog.html')){
+  items[6].classList.add('menu-active')
 }
 //contact 
 
