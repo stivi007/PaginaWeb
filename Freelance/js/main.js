@@ -210,6 +210,9 @@ if (page.endsWith('Blog.html')){
 //contact 
 
 //firebase
+
+//----------
+var messageRef=firebase.database().ref('message')
 document.getElementById('contacForm').addEventListener('submit',submitForm);
 function submitForm(e){
   e.preventDefault();
@@ -218,9 +221,20 @@ function submitForm(e){
   var email= getInputVal('email');
   var phone= getInputVal('phone');
   var message= getInputVal('message');
-  console.log(name);
+
+  saveMessages(name,email,phone,message);
 }
 
 function getInputVal(id){
   return document.getElementById(id).value;
+}
+//guardar mensajes en firebase
+function saveMessages(name,email,phone,message){
+  var newMessagesRef=messageRef.push();
+  newMessagesRef.set({
+    name: name,
+    email: email,
+    phone: phone,
+    message: message
+  })
 }
