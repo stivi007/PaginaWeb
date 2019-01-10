@@ -210,7 +210,15 @@ if (page.endsWith('Blog.html')){
 //contact 
 
 //firebase
-
+var config = {
+  apiKey: "AIzaSyDBINZJCAWbNNyD4GH-831iRv06Z-I34Lc",
+  authDomain: "contactform-b6037.firebaseapp.com",
+  databaseURL: "https://contactform-b6037.firebaseio.com",
+  projectId: "contactform-b6037",
+  storageBucket: "contactform-b6037.appspot.com",
+  messagingSenderId: "113421217608"
+};
+firebase.initializeApp(config);
 //----------
 var messageRef=firebase.database().ref('message')
 document.getElementById('contacForm').addEventListener('submit',submitForm);
