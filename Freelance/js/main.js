@@ -78,7 +78,7 @@ jQuery(document).ready(function( $ ) {
             top_space = top_space - 20;
           }
         }
-
+        //velocidades de la animacion de Bodi
         $('html, body').animate({
           scrollTop: target.offset().top - top_space
         }, 1500, 'easeInOutExpo');
