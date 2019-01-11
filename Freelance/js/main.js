@@ -222,9 +222,9 @@ var config = {
 firebase.initializeApp(config);
 //----------
 var messageRef=firebase.database().ref('message')
-document.getElementById('contacForm').addEventListener('submit',submitForm);
-function submitForm(e){
-  e.preventDefault();
+//document.getElementsByTagName('form')[0].addEventListener('submit',submitForm);
+function enviar(){
+  //e.preventDefault();
 
   var name= getInputVal('name');
   var email= getInputVal('email');
