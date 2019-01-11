@@ -207,6 +207,7 @@ if (page.endsWith('Nuestra-Empresa.html')) {
 if (page.endsWith('Blog.html')){
   items[6].classList.add('menu-active')
 }
+
 //contact 
 
 //firebase
@@ -230,9 +231,13 @@ function submitForm(e){
   var phone= getInputVal('phone');
   var message= getInputVal('message');
 
-  saveMessages(name,email,phone,message);
+  saveMessages(name ,email, phone, message);
+  alert("mensaje enviado");
+  document.getElementById('name').value="";
+  document.getElementById('email').value="";
+  document.getElementById('phone').value="";
+  document.getElementById('message').value="";
 }
-
 function getInputVal(id){
   return document.getElementById(id).value;
 }
@@ -245,4 +250,10 @@ function saveMessages(name,email,phone,message){
     phone: phone,
     message: message
   })
+ 
+  
 }
+function clickme(){
+  
+}
+
