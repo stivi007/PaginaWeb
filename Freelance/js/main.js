@@ -222,17 +222,21 @@ var config = {
 firebase.initializeApp(config);
 //----------
 var messageRef=firebase.database().ref('message')
-//document.getElementsByTagName('form')[0].addEventListener('submit',submitForm);
+//document.getElementById('formConec').addEventListener('submit',submitForm);
 function enviar(){
   //e.preventDefault();
+
+  let f = new Date();
+  let fecha = f.getFullYear() + "/" + (f.getMonth() + 1) + "/" + f.getDate();
 
   var name= getInputVal('name');
   var email= getInputVal('email');
   var phone= getInputVal('phone');
   var message= getInputVal('message');
-
-  saveMessages(name ,email, phone, message);
+  
+  saveMessages(name ,email, phone, message, fecha);
   alert("mensaje enviado");
+  console.log("este es",fecha);
   document.getElementById('name').value="";
   document.getElementById('email').value="";
   document.getElementById('phone').value="";
@@ -242,13 +246,14 @@ function getInputVal(id){
   return document.getElementById(id).value;
 }
 //guardar mensajes en firebase
-function saveMessages(name,email,phone,message){
+function saveMessages(name,email,phone,message, fecha){
   var newMessagesRef=messageRef.push();
   newMessagesRef.set({
     name: name,
     email: email,
     phone: phone,
-    message: message
+    message: message,
+    fecha : fecha
   })
  
   
