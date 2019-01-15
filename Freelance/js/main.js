@@ -234,6 +234,26 @@ function enviar(){
   var phone= getInputVal('phone');
   var message= getInputVal('message');
   
+  var parametros = {
+    "nombre" : name,
+    "correo" : email,
+    "telefono" : phone,
+    "fecha" : fecha,
+    "mensaje" : message
+};
+$.ajax({
+    data:  parametros, //datos que se envian a traves de ajax
+    url:   'enviar.php', //archivo que recibe la peticion
+    type:  'post', //método de envio
+    beforeSend: function () {
+           // $("#resultado").html("Procesando, espere por favor...");
+    },
+    success:  function (response) { //una vez que el archivo recibe el request lo procesa y lo devuelve
+           // $("#resultado").html(response);
+           alert ("exito")
+    }
+});
+
   saveMessages(name ,email, phone, message, fecha);
   alert("mensaje enviado");
   console.log("este es",fecha);
