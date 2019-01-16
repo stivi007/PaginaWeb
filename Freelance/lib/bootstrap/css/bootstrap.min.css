@@ -5607,6 +5607,27 @@ button.bg-danger:focus,
 button.bg-danger:hover {
     background-color: #bd2130!important
 }
+.bg-purple {
+    background-color: #774dc5!important
+}
+a.bg-purple:focus,
+a.bg-purple:hover,
+button.bg-purple:focus,
+button.bg-purple:hover {
+    background-color: #8a60da!important
+}
+
+.bg-gray {
+    background-color: #818182!important
+}
+a.bg-gray:focus,
+a.bg-gray:hover,
+button.bg-gray:focus,
+button.bg-gray:hover {
+    background-color: #a9a9af!important
+}
+
+
 .bg-light {
     background-color: #f8f9fa!important
 }
