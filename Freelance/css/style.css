@@ -1312,6 +1312,7 @@ label{
 
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
+  text-align: justify;
 }
 
 #footer .footer-top .footer-info h3 {
@@ -1412,16 +1413,18 @@ label{
   color: #18d26e;
 }
 
-#footer .footer-top .footer-contact {
+#footer .footer-top {
   margin-bottom: 30px;
 }
 
 #footer .footer-top .footer-contact p {
   line-height: 26px;
+  text-align: justify;
 }
 
 #footer .footer-top .footer-newsletter {
   margin-bottom: 30px;
+  text-align: justify;
 }
 
 #footer .footer-top .footer-newsletter input[type="email"] {
@@ -1439,6 +1442,7 @@ label{
   color: #fff;
   transition: 0.3s;
   cursor: pointer;
+  
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
