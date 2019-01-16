@@ -178,7 +178,7 @@ console.log(items)
 for (var i = 0; i < items.length; i++) {
   items[i].classList.remove('menu-active')
 }
-console.log('juan')
+
 var page = window.location.pathname;
 if (page.endsWith('index.html')) {
   items[0].classList.add('menu-active')
