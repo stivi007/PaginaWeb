@@ -289,12 +289,12 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 180px;
 }
 
-/* Nav Menu Arrows */
-.sf-arrows .sf-with-ul {
+/* Nav Menu Ars */
+.sf-ars .sf-with-ul {
   padding-right: 30px;
 }
 
-.sf-arrows .sf-with-ul:after {
+.sf-ars .sf-with-ul:after {
   content: "\f107";
   position: absolute;
   right: 15px;
@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-.sf-arrows ul .sf-with-ul:after {
+.sf-ars ul .sf-with-ul:after {
   content: "\f105";
 }
 
@@ -592,16 +592,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
 }
 
-/* #about::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(255, 255, 255, 0.92);
-  z-index: 9;
-} */
 
 #about .container {
   position: relative;
@@ -688,16 +678,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   
 }
-/* #services::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(255, 255, 255, 0.92);
-  z-index: 9;
-} */
+
 
 #services .box {
   margin-bottom: 30px;
@@ -1303,15 +1284,22 @@ label{
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
+  margin-left: 0;
 }
 
 #footer .footer-top {
   background: #111;
   padding: 60px 0 30px 0;
+  
 }
-
+.row p{
+  margin-left: 0;
+  padding: 0;
+  
+}
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
+  margin-left: 0;
   text-align: justify;
 }
 
@@ -1322,14 +1310,18 @@ label{
   line-height: 1;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  letter-spacing: 3px;
+  letter-spacing: 7px;
   border-left: 4px solid #18d26e;
+  margin-left: 0;
+  
 }
 
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
+  text-align: justify;
   margin-bottom: 0;
+  margin-left:0;
   font-family: "Montserrat", sans-serif;
   color: #eee;
 }
@@ -1423,7 +1415,7 @@ label{
 }
 
 #footer .footer-top .footer-newsletter {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-align: justify;
 }
 
@@ -1455,7 +1447,7 @@ label{
 }
 
 #footer .credits {
-  text-align: center;
+  text-align: justify;
   font-size: 13px;
   color: #ddd;
 }
