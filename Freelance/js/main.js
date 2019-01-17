@@ -184,29 +184,24 @@ if (page.endsWith('index.html')) {
   items[0].classList.add('menu-active')
 }
 
-if (page.endsWith('About.html')) {
-  items[1].classList.add('menu-active')
-}
 
 if (page.endsWith('Contact.html')) {
-  items[5].classList.add('menu-active')
-}
-if (page.endsWith('Porque-Elegirnos.html')) {
   items[4].classList.add('menu-active')
 }
-
-
-if (page.endsWith('Portafolio.html')) {
+if (page.endsWith('Porque-Elegirnos.html')) {
   items[3].classList.add('menu-active')
 }
 
 
-if (page.endsWith('Nuestra-Empresa.html')) {
+if (page.endsWith('Portafolio.html')) {
   items[2].classList.add('menu-active')
 }
-if (page.endsWith('Blog.html')){
-  items[6].classList.add('menu-active')
+
+
+if (page.endsWith('Nuestra-Empresa.html')) {
+  items[1].classList.add('menu-active')
 }
+
 
 //contact 
 
