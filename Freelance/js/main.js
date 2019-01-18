@@ -188,7 +188,7 @@ if (page.endsWith('index.html')) {
 if (page.endsWith('Contact.html')) {
   items[4].classList.add('menu-active')
 }
-if (page.endsWith('Porque-Elegirnos.html')) {
+if (page.endsWith('Equipo.html')) {
   items[3].classList.add('menu-active')
 }
 
