@@ -533,6 +533,15 @@ pre code {
     margin-right: -15px;
     margin-left: -15px
 }
+.row2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-right: 25%;
+    padding-left: 25%;
+}
 .no-gutters {
     margin-right: 0;
     margin-left: 0
@@ -2241,6 +2250,8 @@ select.form-control-lg:not([size]):not([multiple]) {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     -webkit-box-align: center;
