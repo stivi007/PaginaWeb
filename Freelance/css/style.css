@@ -679,6 +679,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
+  color : black;
   
 }
 
@@ -692,13 +693,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .icon i {
-  color: #e79c10;
+  color: #18d26e;
   font-size: 36px;
   line-height: 1;
   transition: 0.5s;
 }
 #services .icon {
-  color: #000;
+  color: #18d26e;
 }
 #services .title {
   margin-left: 60px;
