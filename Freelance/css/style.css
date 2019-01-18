@@ -152,6 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .carousel-content {
   text-align: center;
+  
 }
 
 #intro h2 {
@@ -590,6 +591,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
+  margin-top: -50px;
+  transition: margin 0.4s;
 }
 
 
@@ -834,18 +837,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 30px;
 }
 
+
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-
+  background: url("../../Freelance/img/about-bg.jpg") center top no-repeat fixed;
   padding: 60px 0;
+  text-align: center;
 }
 
 #portfolio #portfolio-flters {
   padding: 0;
   margin: 5px 0 35px 0;
   list-style: none;
-  text-align: center;
+  text-align: justify;
 }
 
 #portfolio #portfolio-flters li {
