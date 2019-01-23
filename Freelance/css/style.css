@@ -784,6 +784,29 @@ p{
   
 }
 
+#skills .progress{
+  transition: margin 0.2s;
+
+}
+
+
+/*#team .member .member-info-content {
+  margin-top: -50px;
+  transition: margin 0.2s;
+}
+
+#team .member:hover .member-info {
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  transition: 0.4s;
+}
+
+#team .member:hover .member-info-content {
+  margin-top: 0;
+  transition: margin 0.4s;
+}*/
+
+
 #skills .progress .skill {
   font-family: "Open Sans", sans-serif;
   line-height: 64%;
