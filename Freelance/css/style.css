@@ -507,7 +507,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   padding-bottom: 15px;
 }
-
+.section-header h4 {
+  font-size: 25px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+}
 .section-header h3::before {
   content: '';
   position: absolute;
