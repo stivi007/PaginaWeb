@@ -507,7 +507,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   padding-bottom: 15px;
 }
-
+.section-header h4 {
+  font-size: 25px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+}
 .section-header h3::before {
   content: '';
   position: absolute;
@@ -784,13 +792,27 @@ p{
   
 }
 
-#skills .progress{
-  transition: margin 0.2s;
-
+/*#team .member {
+  text-align: center;
+  margin-bottom: 20px;
+  background: #000;
+  position: relative;
 }
 
+#team .member .member-info {
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+}
 
-/*#team .member .member-info-content {
+#team .member .member-info-content {
   margin-top: -50px;
   transition: margin 0.2s;
 }
@@ -804,6 +826,7 @@ p{
 #team .member:hover .member-info-content {
   margin-top: 0;
   transition: margin 0.4s;
+}
 }*/
 
 
@@ -1281,7 +1304,7 @@ p{
   margin: auto;
 }
 input[type=text],[type=email],[type=tel]{
-  width: 60%;
+  width: 90%;
   height: 40px;
   border-radius: 5px;
 }
