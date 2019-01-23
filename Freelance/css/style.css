@@ -1244,7 +1244,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: auto;
 }
 input[type=text],[type=email],[type=tel]{
-  width: 60%;
+  width: 90%;
   height: 40px;
   border-radius: 5px;
 }
