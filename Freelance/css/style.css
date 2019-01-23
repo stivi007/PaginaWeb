@@ -708,6 +708,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
 }
 
+.title {
+  text-align: justify;
+}
+
+p{
+  text-align: justify;
+}
+
 #services .title a {
   color: rgb(0, 0, 0);
 }
@@ -764,17 +772,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 #skills {
-  padding: 60px 0;
+  padding: 14%  0;
 }
 
 #skills .progress {
-  height: 35px;
-  margin-bottom: 10px;
+  height: 100%;
+  width: 15%;
+  margin-bottom: 20px;
+  margin-right: 10px; 
+  float: left;
+  
 }
 
 #skills .progress .skill {
   font-family: "Open Sans", sans-serif;
-  line-height: 35px;
+  line-height: 64%;
   padding: 0;
   margin: 0 0 0 20px;
   text-transform: uppercase;
@@ -788,15 +800,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #skills .progress-bar {
   width: 1px;
-  text-align: left;
+  text-align: justify;
   transition: .9s;
+  
 }
 
 /* Facts Section
 --------------------------------*/
 #facts {
-  background: url("../img/facts-bg.jpg") center top no-repeat fixed;
-  background-size: cover;
+ /* background: url("../img/facts-bg.jpg") center top no-repeat fixed;*/
+ /* background-size: cover;*/
   padding: 60px 0 0 0;
   position: relative;
 }
@@ -806,9 +819,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: absolute;
   left: 0;
   right: 0;
+
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.88);
+  
   z-index: 9;
 }
 
@@ -1301,7 +1315,7 @@ label{
 .row p{
   margin-left: 0;
   padding: 0;
-  
+  margin-right: 0;
 }
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
